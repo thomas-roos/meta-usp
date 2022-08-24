@@ -9,7 +9,7 @@ inherit packagegroup
 PACKAGES = "${PN}"
 PROVIDES = "${PACKAGES}"
 
-DEPENDS:${PN} = " \
+DEPENDS = " \
     libimtp \ 
     libuspi \
     libuspprotobuf \
