@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libusp.git;protocol=https;nobranch=1"
-SRCREV = "v0.8.2"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 

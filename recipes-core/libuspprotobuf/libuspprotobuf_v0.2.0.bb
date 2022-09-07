@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libprotobuf.git;protocol=https;nobranch=1"
-SRCREV = "v0.2.0"
 S = "${WORKDIR}/git"
 inherit pkgconfig config-amx
 

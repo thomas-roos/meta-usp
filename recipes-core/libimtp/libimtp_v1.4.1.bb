@@ -1,7 +1,6 @@
 
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libimtp.git;protocol=https;nobranch=1"
-SRCREV = ""
 
 S = "${WORKDIR}/git"
 
