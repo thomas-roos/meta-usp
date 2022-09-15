@@ -2,7 +2,9 @@
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/applications/uspagent.git;protocol=https;nobranch=1"
 SRCREV = "v3.1.2"
+
 S = "${WORKDIR}/git"
+
 inherit pkgconfig config-amx
 
 SUMMARY = "USP agent as specified by TR-369"
@@ -38,6 +40,17 @@ RDEPENDS_${PN} += "libuspi"
 RDEPENDS_${PN} += "mod-dmext"
 RDEPENDS_${PN} += "mod-amxb-usp"
 
+
+EXTRA_OEMAKE += "DEST=${D} \
+                 PREFIX=${prefix} \
+                 LIBDIR=${libdir} \
+                 BINDIR=${bindir} \
+                 INCLUDEDIR=${includedir} \
+                 "
+
+do_install() {
+        oe_runmake install
+}
 
 FILES_${PN} += "/usr/lib/amx/${COMPONENT}/${COMPONENT}.so"
 FILES_${PN} += "/etc/amx/${COMPONENT}/${COMPONENT}.odl"
