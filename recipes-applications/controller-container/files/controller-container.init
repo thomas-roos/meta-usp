@@ -20,6 +20,7 @@ select usp:/var/run/usp/endpoint.sock
 
 !amx variable acl-enable=false
 !amx variable acl-dir="/etc/acl/"
+!amx variable cli-name="controller-container"
 
 # Define some aliases
 !amx alias printenv "!amx variable"
