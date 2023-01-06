@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v0.0.5 - 2023-01-06(13:23:35 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [uspagent] dm:OperationComplete created too late
+
 ## Release gen_honister_v0.0.4 - 2022-12-20(13:59:19 +0000)
 
 ## Release gen_honister_v0.0.3 - 2022-12-07(09:05:39 +0000)
