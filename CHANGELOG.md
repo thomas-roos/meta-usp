@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v0.0.6 - 2023-01-09(09:19:57 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): LocalAgent.MTP.i.Status must be Up if MQTT client is connected
+
 ## Release gen_honister_v0.0.5 - 2023-01-06(13:23:35 +0000)
 
 ### Fixes
