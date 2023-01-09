@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v0.0.8 - 2023-01-09(10:28:17 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [Bulkdata][USP] Controller parameter must be set
+
 ## Release gen_honister_v0.0.7 - 2023-01-09(09:24:18 +0000)
 
 ### Fixes
