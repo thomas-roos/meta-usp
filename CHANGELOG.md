@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v0.0.10 - 2023-01-09(15:45:49 +0000)
+
+### Fixes
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): Handle command output args for non-backend processes
+
 ## Release gen_honister_v0.0.9 - 2023-01-09(11:43:17 +0000)
 
 ### Fixes
