@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v0.0.7 - 2023-01-09(09:24:18 +0000)
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Get requests with valid search expressions must return successful
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] GSDM response cannot be extracted properly
+
 ## Release gen_honister_v0.0.6 - 2023-01-09(09:19:57 +0000)
 
 ### Fixes
