@@ -12,7 +12,8 @@ LICENSE += "SAH"
 
 COMPONENT = "usp-endpoint"
 
-
+inherit sah_initscripts
+INITSCRIPT_PARAM += "uspe:21:97"
 
 export CONFIG_SAH_SERVICES_USP-ENDPOINT
 
