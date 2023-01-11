@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v1.1.2 - 2023-01-11(16:34:41 +0000)
+
+### Changes
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [KPN][USP] max_depth has no effect on the Get Message
+
 ## Release gen_honister_v1.1.1 - 2023-01-11(16:29:33 +0000)
 
 ### Changes
