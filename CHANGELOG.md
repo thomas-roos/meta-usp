@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v1.1.0 - 2023-01-11(16:04:48 +0000)
+
+### New
+
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): [USP][AMX] Add support for asynchronous invokes to USP backend
+
+### Fixes
+
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): [USP][AMX] Return variant of get_supported must be updated
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): Handle command output args for non-backend processes
+
+### Changes
+
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): [KPN][USP] max_depth has no effect on the Get Message
+
 ## Release gen_honister_v1.0.1 - 2023-01-11(14:28:14 +0000)
 
 ## Release gen_honister_v1.0.0 - 2023-01-11(12:40:51 +0000)
