@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v1.2.0 - 2023-01-12(11:00:07 +0000)
+
+### Other
+
+- [libimtp](https://gitlab.com/soft.at.home/usp/libraries/libimtp): [SAHPairing] Make sahpairing work with MQTT client
+
 ## Release gen_honister_v1.1.2 - 2023-01-11(16:34:41 +0000)
 
 ### Changes
