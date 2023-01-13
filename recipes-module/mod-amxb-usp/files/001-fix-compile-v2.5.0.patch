@@ -1,0 +1,22 @@
+From cf7154cbdd85212e69a66e48f83e721fe43dd50d Mon Sep 17 00:00:00 2001
+From: Matthias VAN GESTEL <matthias.vangestel_ext@softathome.com>
+Date: Fri, 13 Jan 2023 03:20:11 +0100
+Subject: [PATCH] Use imtp_connection_get_fd instead
+
+---
+ src/amxb_usp.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/amxb_usp.c b/src/amxb_usp.c
+index 0bd6f2c..9fc4f03 100644
+--- a/src/amxb_usp.c
++++ b/src/amxb_usp.c
+@@ -99,7 +99,7 @@ static void amxb_usp_eid_slot_connect(amxb_usp_t* ctx) {
+ 
+     amxc_string_init(&expr, 0);
+ 
+-    amxc_string_setf(&expr, "fd == %d", ctx->icon->fd);
++    amxc_string_setf(&expr, "fd == %d", imtp_connection_get_fd(ctx->icon));
+     amxp_slot_connect(NULL, sig_eid, amxc_string_get(&expr, 0), amxb_usp_eid_received, ctx);
+ 
+     amxc_string_clean(&expr);

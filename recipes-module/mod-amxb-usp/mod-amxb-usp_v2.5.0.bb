@@ -1,4 +1,7 @@
 
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+SRC_URI += " file://001-fix-compile-v2.5.0.patch "
+
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp.git;protocol=https;nobranch=1"
 SRCREV = "v2.5.0"
