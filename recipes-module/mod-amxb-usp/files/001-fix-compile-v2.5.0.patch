@@ -1,78 +1,14 @@
-From 902787e9d6006925b5afa0f0579934b8ac4e2a78 Mon Sep 17 00:00:00 2001
-From: Matthias VAN GESTEL <matthias.vangestel_ext@softathome.com>
-Date: Fri, 13 Jan 2023 04:08:21 +0100
-Subject: [PATCH] Fix typo
+From 3c766720011403487e6dc5c9376be556f14aac7d Mon Sep 17 00:00:00 2001
+From: Matthias Van Gestel <matthias.vangestel_ext@softathome.com>
+Date: Fri, 13 Jan 2023 04:34:05 +0100
+Subject: [PATCH] Fix compilation on v2.5.0
 
 ---
- src/amxb_usp.c | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ src/amxb_usp.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/src/amxb_usp.c b/src/amxb_usp.c
-index a389b4e..39bbc0b 100644
---- a/src/amxb_usp.c
-+++ b/src/amxb_usp.c
-@@ -328,7 +328,7 @@ int PRIVATE amxb_usp_get_fd(void* ctx) {
-     when_null(amxb_usp_ctx, exit);
-     when_null(amxb_usp_ctx->icon, exit);
- 
--    fd = imtp_connection_get_fd(ctx->icon);
-+    fd = imtp_connection_get_fd(amxb_usp_ctx->icon);
- exit:
-     return fd;
- }
-@@ -359,7 +359,7 @@ int amxb_usp_read_raw(void* ctx, void* buf, size_t count) {
-     when_null(amxb_usp_ctx->icon, exit);
-     when_null(buf, exit);
- 
--    retval = read(imtp_connection_get_fd(ctx->icon), buf, count);
-+    retval = read(imtp_connection_get_fd(amxb_usp_ctx->icon), buf, count);
- 
- exit:
-     return retval;
-
-From ba3db6d47fc69491be0bfd87a54a4de971b6d8e4 Mon Sep 17 00:00:00 2001
-From: Matthias VAN GESTEL <matthias.vangestel_ext@softathome.com>
-Date: Fri, 13 Jan 2023 04:00:42 +0100
-Subject: [PATCH] Extend to other parts of the code
-
----
- src/amxb_usp.c | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-diff --git a/src/amxb_usp.c b/src/amxb_usp.c
-index 9fc4f03..a389b4e 100644
---- a/src/amxb_usp.c
-+++ b/src/amxb_usp.c
-@@ -328,7 +328,7 @@ int PRIVATE amxb_usp_get_fd(void* ctx) {
-     when_null(amxb_usp_ctx, exit);
-     when_null(amxb_usp_ctx->icon, exit);
- 
--    fd = amxb_usp_ctx->icon->fd;
-+    fd = imtp_connection_get_fd(ctx->icon);
- exit:
-     return fd;
- }
-@@ -359,7 +359,7 @@ int amxb_usp_read_raw(void* ctx, void* buf, size_t count) {
-     when_null(amxb_usp_ctx->icon, exit);
-     when_null(buf, exit);
- 
--    retval = read(amxb_usp_ctx->icon->fd, buf, count);
-+    retval = read(imtp_connection_get_fd(ctx->icon), buf, count);
- 
- exit:
-     return retval;
-
-From cf7154cbdd85212e69a66e48f83e721fe43dd50d Mon Sep 17 00:00:00 2001
-From: Matthias VAN GESTEL <matthias.vangestel_ext@softathome.com>
-Date: Fri, 13 Jan 2023 03:20:11 +0100
-Subject: [PATCH] Use imtp_connection_get_fd instead
-
----
- src/amxb_usp.c | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-diff --git a/src/amxb_usp.c b/src/amxb_usp.c
-index 0bd6f2c..9fc4f03 100644
+index 0bd6f2c..39bbc0b 100644
 --- a/src/amxb_usp.c
 +++ b/src/amxb_usp.c
 @@ -99,7 +99,7 @@ static void amxb_usp_eid_slot_connect(amxb_usp_t* ctx) {
@@ -84,4 +20,21 @@ index 0bd6f2c..9fc4f03 100644
      amxp_slot_connect(NULL, sig_eid, amxc_string_get(&expr, 0), amxb_usp_eid_received, ctx);
  
      amxc_string_clean(&expr);
-
+@@ -328,7 +328,7 @@ int PRIVATE amxb_usp_get_fd(void* ctx) {
+     when_null(amxb_usp_ctx, exit);
+     when_null(amxb_usp_ctx->icon, exit);
+ 
+-    fd = amxb_usp_ctx->icon->fd;
++    fd = imtp_connection_get_fd(amxb_usp_ctx->icon);
+ exit:
+     return fd;
+ }
+@@ -359,7 +359,7 @@ int amxb_usp_read_raw(void* ctx, void* buf, size_t count) {
+     when_null(amxb_usp_ctx->icon, exit);
+     when_null(buf, exit);
+ 
+-    retval = read(amxb_usp_ctx->icon->fd, buf, count);
++    retval = read(imtp_connection_get_fd(amxb_usp_ctx->icon), buf, count);
+ 
+ exit:
+     return retval;
