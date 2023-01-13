@@ -1,3 +1,35 @@
+From ba3db6d47fc69491be0bfd87a54a4de971b6d8e4 Mon Sep 17 00:00:00 2001
+From: Matthias VAN GESTEL <matthias.vangestel_ext@softathome.com>
+Date: Fri, 13 Jan 2023 04:00:42 +0100
+Subject: [PATCH] Extend to other parts of the code
+
+---
+ src/amxb_usp.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/amxb_usp.c b/src/amxb_usp.c
+index 9fc4f03..a389b4e 100644
+--- a/src/amxb_usp.c
++++ b/src/amxb_usp.c
+@@ -328,7 +328,7 @@ int PRIVATE amxb_usp_get_fd(void* ctx) {
+     when_null(amxb_usp_ctx, exit);
+     when_null(amxb_usp_ctx->icon, exit);
+ 
+-    fd = amxb_usp_ctx->icon->fd;
++    fd = imtp_connection_get_fd(ctx->icon);
+ exit:
+     return fd;
+ }
+@@ -359,7 +359,7 @@ int amxb_usp_read_raw(void* ctx, void* buf, size_t count) {
+     when_null(amxb_usp_ctx->icon, exit);
+     when_null(buf, exit);
+ 
+-    retval = read(amxb_usp_ctx->icon->fd, buf, count);
++    retval = read(imtp_connection_get_fd(ctx->icon), buf, count);
+ 
+ exit:
+     return retval;
+
 From cf7154cbdd85212e69a66e48f83e721fe43dd50d Mon Sep 17 00:00:00 2001
 From: Matthias VAN GESTEL <matthias.vangestel_ext@softathome.com>
 Date: Fri, 13 Jan 2023 03:20:11 +0100
