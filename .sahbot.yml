@@ -10,7 +10,8 @@ components:
 build:
 
   whitelist:
-  - "meta-lcm-basic"
+  - "container-cortexa7"
+  - "container-cortexa53"
 
   linked:
   - layer: "meta-amx"
