@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v1.2.8 - 2023-01-23(14:05:59 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP Agent][Amx]USP request returns 'invalid path' all the time
+
 ## Release gen_honister_v1.2.7 - 2023-01-13(08:07:17 +0000)
 
 ## Release gen_honister_v1.2.6 - 2023-01-13(03:38:17 +0000)
