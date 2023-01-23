@@ -9,9 +9,9 @@ components:
 
 build:
 
-  whitelist:
-  - "container-cortexa7"
-  - "container-cortexa53"
+  # whitelist:
+  # - "container-cortexa7"
+  # - "container-cortexa53"
 
   linked:
   - layer: "meta-amx"
