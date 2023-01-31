@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release gen_honister_v1.2.9 - 2023-01-31(13:04:33 +0000)
+
+### Fixes
+
+- [mod-usp-onboarding](https://${GIT_BASE_URL}/amx/usp/modules/mod_usp_onboarding): HGWKPN-1783 [ACS] [SW2]: Device.Reboot() runs but does not finish in MOTIVE
+
 ## Release gen_honister_v1.2.8 - 2023-01-23(14:05:59 +0000)
 
 ### Fixes
