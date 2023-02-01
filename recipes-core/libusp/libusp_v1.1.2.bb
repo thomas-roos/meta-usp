@@ -5,7 +5,7 @@ SRCREV = "v1.1.2"
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "libusp can be used for converting USP protobuf messages to ambiorix variants and vice versa."
 LICENSE += "SAH & BBF & BSD-2-Clause-Patent"

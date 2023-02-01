@@ -4,7 +4,7 @@ SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libprotobuf.git;protocol=
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "This library generates C code from .proto files provided by bbf"
 LICENSE += "SAH & BBF"

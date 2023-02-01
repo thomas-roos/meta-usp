@@ -5,7 +5,7 @@ SRCREV = ""
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "Data model discovery module"
 LICENSE += "BSD-2-Clause-Patent & SAH"

@@ -5,7 +5,7 @@ SRCREV = "v1.0.10"
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "Mini USP agent or controller"
 LICENSE += "SAH"

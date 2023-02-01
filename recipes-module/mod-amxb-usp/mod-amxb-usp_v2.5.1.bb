@@ -5,7 +5,7 @@ SRCREV = "v2.5.1"
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "USP backend implementation for amxb"
 LICENSE += "SAH & BSD-2-Clause-Patent"

@@ -1,7 +1,7 @@
 
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/applications/uspagent.git;protocol=https;nobranch=1"
-SRCREV = "v3.5.8"
+SRCREV = "v3.5.10"
 
 S = "${WORKDIR}/git"
 

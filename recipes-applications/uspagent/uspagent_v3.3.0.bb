@@ -3,7 +3,7 @@
 SRC_URI = "git://gitlab.com/soft.at.home/usp/applications/uspagent.git;protocol=https;nobranch=1"
 SRCREV = "v3.3.0"
 S = "${WORKDIR}/git"
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "USP agent as specified by TR-369"
 LICENSE += "SAH & BSD-2-Clause-Patent"

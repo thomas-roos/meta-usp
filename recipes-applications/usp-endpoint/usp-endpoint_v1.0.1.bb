@@ -3,7 +3,7 @@
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "Mini USP agent or controller"
 LICENSE += "SAH"

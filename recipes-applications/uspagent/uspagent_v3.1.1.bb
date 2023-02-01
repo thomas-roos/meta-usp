@@ -5,7 +5,7 @@ SRCREV = ""
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "USP agent as specified by TR-369"
 LICENSE += "SAH & BSD-2-Clause-Patent"

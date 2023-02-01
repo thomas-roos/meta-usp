@@ -1,7 +1,7 @@
 
 
 SRC_URI = ".git;protocol=https;nobranch=1"
-SRCREV = "v1.2.9"
+SRCREV = "v1.2.10"
 
 S = "${WORKDIR}/git"
 

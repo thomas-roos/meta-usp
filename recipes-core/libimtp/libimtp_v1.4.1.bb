@@ -4,7 +4,7 @@ SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libimtp.git;protocol=http
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "libimtp is a library which provides functionality to set up a connection between two internal USP endpoints using a unix domain socket."
 LICENSE += "SAH & BSD-2-Clause-Patent"

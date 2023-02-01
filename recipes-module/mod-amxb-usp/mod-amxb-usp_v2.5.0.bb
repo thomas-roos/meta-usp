@@ -9,7 +9,7 @@ SRC_URI += " file://001-fix-compile-v2.5.0.patch "
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "USP backend implementation for amxb"
 LICENSE += "SAH & BSD-2-Clause-Patent"

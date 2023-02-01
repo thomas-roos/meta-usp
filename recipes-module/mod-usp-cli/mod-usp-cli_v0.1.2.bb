@@ -5,7 +5,7 @@ SRCREV = ""
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "CLI module to invoke USP RPCs using an available MTP"
 LICENSE += "SAH & BSD-2-Clause-Patent"

@@ -5,7 +5,7 @@ SRCREV = ""
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-usp
 
 SUMMARY = "libuspi is a common library for setting up and managing IMTP connections"
 LICENSE += "SAH & BSD-2-Clause-Patent"
