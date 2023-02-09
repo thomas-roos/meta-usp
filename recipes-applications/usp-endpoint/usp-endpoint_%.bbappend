@@ -1,2 +1,3 @@
-inherit sah_initscripts
-INITSCRIPT_PARAM += "uspe:21:97"
+inherit update-rc.d
+INITSCRIPT_NAME = "uspe"
+INITSCRIPT_PARAMS = "start 21 2 3 4 5 . stop 97 0 1 6 ."

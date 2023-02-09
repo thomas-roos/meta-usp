@@ -38,6 +38,9 @@ RDEPENDS_${PN} += "libuspi"
 RDEPENDS_${PN} += "mod-dmext"
 RDEPENDS_${PN} += "mod-amxb-usp"
 
+inherit update-rc.d
+INITSCRIPT_NAME = "${COMPONENT}"
+INITSCRIPT_PARAMS = "start 99 2 3 4 5 . stop 99 0 1 6 ."
 
 FILES_${PN} += "/usr/lib/amx/${COMPONENT}/${COMPONENT}.so"
 FILES_${PN} += "/etc/amx/${COMPONENT}/${COMPONENT}.odl"
