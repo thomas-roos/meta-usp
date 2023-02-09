@@ -3,6 +3,7 @@
 S = "${WORKDIR}/git"
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libprotobuf.git;protocol=https;nobranch=1"
+SRCREV = "v0.2.0"
 inherit pkgconfig config-usp
 
 SUMMARY = "This library generates C code from .proto files provided by bbf"

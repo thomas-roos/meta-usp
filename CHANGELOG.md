@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v1.4.2 - 2023-02-09(12:41:03 +0000)
+
+### Removed
+
+- [mod-discovery](https://${GIT_BASE_URL}/amx/usp/modules/mod-discovery): Component removed
+- [mod-usp-cli](https://${GIT_BASE_URL}/amx/usp/modules/amx_cli/mod-usp-cli): Component removed
+- [mod-usp-onboarding](https://${GIT_BASE_URL}/amx/usp/modules/mod_usp_onboarding): Component removed
+
 ## Release honister_v1.4.0 - 2023-02-09(10:51:26 +0000)
 
 ## Release honister_v1.2.11 - 2023-02-01(14:38:09 +0000)

@@ -1,7 +1,7 @@
 
 
 SRC_URI = "git://gitlab.com/soft.at.home/usp/libraries/libuspi.git;protocol=https;nobranch=1"
-SRCREV = "v2.0.1"
+SRCREV = "v0.2.1"
 
 S = "${WORKDIR}/git"
 
