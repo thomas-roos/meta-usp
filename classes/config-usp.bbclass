@@ -1,5 +1,7 @@
 # Class for meta-amx building configuration
 
+INCLUDEDIR ?= "${includedir}"
+
 EXTRA_OEMAKE += "DEST=${D} \
                  PREFIX=${prefix} \
                  LIBDIR=${libdir} \
