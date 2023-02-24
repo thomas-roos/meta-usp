@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v1.4.3 - 2023-02-24(15:52:29 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Parameter paths must be fetched with depth=0
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Add tr181-mqtt/tr181-localagent/uspagent into processmonitor
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Update unit tests after recent changes
+
 ## Release honister_v1.4.2 - 2023-02-09(12:41:03 +0000)
 
 ### Removed
