@@ -8,6 +8,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v1.5.0 - 2023-04-12(15:05:12 +0000)
+
+### New
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP][CDROUTER] The NotifExpiration limit is not respected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Send ForceReconnect based on AutoReconnect parameter
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Remove var dumps from libusp
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Correctly save last value of parameter subscriptions
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Must be able to forward notifications on IMTP
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Dynamically adding LocalAgent.MTP. instances does not work
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [KPN][USP] Boot! event notification is not as expected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Discovery object should not be protected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Disabling second controller breaks IMTP connection for first
+
+### Changes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Add requests with search paths will be allowed
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Documentation should be written for adding subscriptions to containers
+
 ## Release honister_v1.4.3 - 2023-02-24(15:52:29 +0000)
 
 ### Fixes
