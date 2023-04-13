@@ -1,0 +1,31 @@
+%populate {
+    object LocalAgent {
+        parameter Enable = true;
+#        parameter EndpointID = "proto::controller-container";
+        object MTP {
+            instance add (0, "mtp-imtp-host") {
+                extend with mib IMTP;
+
+                parameter Enable = true;
+                parameter Protocol = "IMTP";
+
+                object IMTP {
+                    parameter URI = "usp:/var/run/imtp/uspa.sock";
+                    parameter Mode = "Connect";
+                }
+            }
+
+            instance add (0, "mtp-imtp-container") {
+                extend with mib IMTP;
+
+                parameter Enable = true;
+                parameter Protocol = "IMTP";
+
+                object IMTP {
+                    parameter URI = "usp:/var/run/usp/endpoint.sock";
+                    parameter Mode = "Listen";
+                }
+            }
+        }
+    }
+}
