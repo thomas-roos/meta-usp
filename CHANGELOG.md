@@ -8,6 +8,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v1.5.0 - 2023-04-26(07:38:17 +0000)
+
+### New
+
+- [libuspi](https://gitlab.com/soft.at.home/usp/libraries/libuspi): [USP] Add support for subscriptions to usp-endpoint
+- [libuspprotobuf](https://gitlab.com/soft.at.home/usp/libraries/libprotobuf): [USP] Add NotifType AmxNotification for ambiorix events
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] Add support for subscriptions to usp-endpoint
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP][CDROUTER] The NotifExpiration limit is not respected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Send ForceReconnect based on AutoReconnect parameter
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Remove var dumps from libusp
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Correctly save last value of parameter subscriptions
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Must be able to forward notifications on IMTP
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Parameter paths must be fetched with depth=0
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Dynamically adding LocalAgent.MTP. instances does not work
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [KPN][USP] Boot! event notification is not as expected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Discovery object should not be protected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Disabling second controller breaks IMTP connection for first
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Improve ACL handling with adds
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP][Regression] Cannot find IMTP con for enabled controller
+
+### Changes
+
+- [libuspi](https://gitlab.com/soft.at.home/usp/libraries/libuspi): [USP] Port subscription changes to libuspi
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] Port subscription changes to usp-endpoint
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Add requests with search paths will be allowed
+
+### Other
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [uspe] Remove default endpoint id for uspe
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Add tr181-mqtt/tr181-localagent/uspagent into processmonitor
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Update unit tests after recent changes
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Documentation should be written for adding subscriptions to containers
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Extend subscription unit tests
+
 ## Release honister_v1.5.0 - 2023-04-25(14:09:52 +0000)
 
 ### New
