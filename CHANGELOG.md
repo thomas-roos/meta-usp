@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v2.0.1 - 2023-05-22(15:09:16 +0000)
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Input arguments must be JSON encoded
+
 ## Release honister_v2.0.0 - 2023-05-22(09:41:03 +0000)
 
 ### Breaking
