@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v2.1.0 - 2023-05-23(09:28:18 +0000)
+
+### New
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [Security][USP] Add ACLs for subscriptions to USP agent
+
 ## Release honister_v2.0.1 - 2023-05-22(15:09:16 +0000)
 
 ### Fixes
