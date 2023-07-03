@@ -8,6 +8,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v2.2.0 - 2023-07-03(15:49:05 +0000)
+
+### New
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): It must be possible to build partially failed add responses
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Support Error Code: 7025 'Object exists with duplicate key'
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [Security][USP] Add ACLs for get instances to USP agent
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [Security][USP] Add ACLs for get supported dm to USP agent
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] allow_partial=false must be rejected
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP][MQTT] Missing unique keys for MQTT data model
+
+### Changes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Add specific error codes for get instances
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] allow_partial=false must be rejected
+
+### Other
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): Extend README with runtime dependencies
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [CR9HF] - Multiple uspagent sessions running
+
 ## Release honister_v2.1.0 - 2023-05-23(09:28:18 +0000)
 
 ### New
