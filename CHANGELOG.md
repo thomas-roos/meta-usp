@@ -8,6 +8,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.0.0 - 2023-09-14(14:22:50 +0000)
+
+### Breaking
+
+- [libimtp](https://gitlab.com/soft.at.home/usp/libraries/libimtp): [IMTP] Implement IMTP communication as specified in TR-369
+- [libuspi](https://gitlab.com/soft.at.home/usp/libraries/libuspi): [IMTP] Implement IMTP communication as specified in TR-369
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): [IMTP] Implement IMTP communication as specified in TR-369
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [IMTP] Implement IMTP communication as specified in TR-369
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [IMTP] Implement IMTP communication as specified in TR-369
+
+### New
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [PRPL][USP][Onboarding]MTP Connector usp messages missing
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] GSDM should return whether commands are (a)sync
+- [libuspprotobuf](https://gitlab.com/soft.at.home/usp/libraries/libprotobuf): [USP] Add UDS connect record to library
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Add config flag to ignore partial
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Our uspagent should use the USPServices data model
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Retry onboarding in case it is not confirmed
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] GSDM should return whether commands are (a)sync
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Update log message for allow_partial=false
+- [libuspi](https://gitlab.com/soft.at.home/usp/libraries/libuspi): [USP] messages are not published sometimes
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): USP UDS connection is complete when handshake is done
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): [USP] Remove handshake from connect
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] Notify response published on wrong topic
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Remove handshake from connect
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Retry IMTP connection in case of failure
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Prevent segmentation fault after IMTP disconnect
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] messages are not published sometimes
+
+### Changes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Trigger Device.Boot! event from uspagent
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): Remove redundant line of code
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): Recommend using allow_partial = true
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] Add config variables for init script of usp-endpoint
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [KPN][USP] Boot! event is not as expected
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [AMX] Replace ubus-cli in debuginfo script
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Bus timeout when fetching Device object on boot
+
 ## Release honister_v2.2.0 - 2023-07-03(15:49:05 +0000)
 
 ### New
