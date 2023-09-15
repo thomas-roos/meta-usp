@@ -7,11 +7,11 @@
 backend add /usr/bin/mods/amxb/mod-amxb-usp.so
 
 # Open connection to USP endpoint
-connection open usp:/var/run/usp/endpoint.sock
+connection open usp:/var/run/usp/endpoint_agent_path
 
 # Select connection
 connections
-select usp:/var/run/usp/endpoint.sock
+select usp:/var/run/usp/endpoint_agent_path
 
 # Set mode cli
 !addon select mod_ba cli
