@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.0.1 - 2023-09-15(11:16:32 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Only send BulkData reports to subscribed controller
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Only send BulkData reports to subscribed controller
+
+### Other
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [usp-endpoint] Install uspa_definition.odl when CONFIG_SAH_SERVICES_USPE is enabled
+
 ## Release honister_v3.0.0 - 2023-09-14(14:22:50 +0000)
 
 ### Breaking
