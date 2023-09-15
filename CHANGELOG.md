@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.0.2 - 2023-09-15(11:32:02 +0000)
+
 ## Release honister_v3.0.1 - 2023-09-15(11:16:32 +0000)
 
 ### Fixes
