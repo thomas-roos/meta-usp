@@ -3,3 +3,6 @@ INITSCRIPT_NAME = "uspe"
 INITSCRIPT_PARAMS = "start 21 2 3 4 5 . stop 97 0 1 6 ."
 
 CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPE = "y"
+# appoint empty string value so the OR in the makefile succeeds correctly
+CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPA = ""
+CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPC = ""
