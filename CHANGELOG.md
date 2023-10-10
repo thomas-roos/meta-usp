@@ -8,6 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.1.0 - 2023-10-10(14:44:37 +0000)
+
+### New
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Use latest protobuf schema
+- [libuspprotobuf](https://gitlab.com/soft.at.home/usp/libraries/libprotobuf): [USP] Use latest protobuf schema
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Update USP error codes for registration
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] deregistered_path can be repeated
+- [libuspprotobuf](https://gitlab.com/soft.at.home/usp/libraries/libprotobuf): [USP] deregistered_path can be repeated
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Fix license headers in files
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] onboard request not automatically sent by IB4 when MTP is re-enabled
+
+### Other
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): Fix license headers in files
+
 ## Release honister_v3.0.5 - 2023-09-21(22:35:14 +0000)
 
 ## Release honister_v3.0.4 - 2023-09-18(10:28:58 +0000)
