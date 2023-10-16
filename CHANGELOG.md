@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.1.2 - 2023-10-16(21:39:53 +0000)
+
+### Fixes
+
+- [mod-amxb-usp](https://gitlab.com/soft.at.home/usp/modules/amxb_backends/amxb_usp): Block SIGALARM during USP socket polling to avoid interrupting it
+
 ## Release honister_v3.1.1 - 2023-10-16(09:48:49 +0000)
 
 ## Release honister_v3.1.0 - 2023-10-10(14:44:37 +0000)
