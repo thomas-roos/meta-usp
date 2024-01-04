@@ -8,6 +8,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.2.0 - 2024-01-04(09:14:50 +0000)
+
+### New
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [USP] Set up communication with obuspa
+
+### Fixes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Auto cast results from a get response
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Auto cast results from a set and add response
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Add extra NULL pointer checks
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Fix license headers in files
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Deferred calls are cleaned up before everything is done
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] Describe returns list with result
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): LocalAgent.MTP.{i}.Status not updated properly
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Register rollback does too much
+
+### Changes
+
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): [USP] Make set response less strict
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [USP] All plugins on host connect to the USP agent socket
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [USP] It must be possible to configure capabilities
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [USP] Backend must be able to handle interleaved messages
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Add with sub-object parameters must be supported
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Move USP backend location
+
+### Other
+
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): Update documentation
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): Move library to prpl gitlab
+- [libusp](https://gitlab.com/soft.at.home/usp/libraries/libusp): Don't rename LICENSE.BSD to LICENSE in oss
+- [libuspi](https://gitlab.com/soft.at.home/usp/libraries/libuspi): [USP] Enable documentation generation for libuspi
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [LCM] Error code is not forwarded correctly from LCM to USP in case of InstallDU using a non-existent EE
+
 ## Release honister_v3.1.2 - 2023-10-16(21:39:53 +0000)
 
 ### Fixes
