@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.3.0 - 2024-01-08(16:26:06 +0000)
+
+### New
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Allow creating subscriptions via LocalAgent.Subscription dm
+
 ## Release honister_v3.2.0 - 2024-01-04(09:14:50 +0000)
 
 ### New
