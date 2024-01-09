@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.3.1 - 2024-01-09(10:29:07 +0000)
+
+### Other
+
+- [libuspi](https://gitlab.com/soft.at.home/usp/libraries/libuspi): Remove circular dependency
+
 ## Release honister_v3.3.0 - 2024-01-08(16:26:06 +0000)
 
 ### New
