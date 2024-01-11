@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.3.2 - 2024-01-11(14:48:17 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Add quick start guide to uspagent
+
 ## Release honister_v3.3.1 - 2024-01-09(10:29:07 +0000)
 
 ### Other
