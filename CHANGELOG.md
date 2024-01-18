@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.3.4 - 2024-01-18(11:56:53 +0000)
+
+### Fixes
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] usp-endpoint needs to load usp backend
+
 ## Release honister_v3.3.3 - 2024-01-12(11:26:19 +0000)
 
 ### Fixes
