@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.3.5 - 2024-01-26(11:08:44 +0000)
+
+### Fixes
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [USP] Issue with asynchronous calls
+
 ## Release honister_v3.3.4 - 2024-01-18(11:56:53 +0000)
 
 ### Fixes
