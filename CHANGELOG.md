@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.4.0 - 2024-01-30(16:02:27 +0000)
+
+### New
+
+- [libimtp](https://gitlab.com/prpl-foundation/components/core/libraries/libimtp): [libimtp] Add file descriptor transfer functionality
+
 ## Release honister_v3.3.5 - 2024-01-26(11:08:44 +0000)
 
 ### Fixes
