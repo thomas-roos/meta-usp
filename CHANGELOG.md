@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.5.0 - 2024-02-15(12:56:00 +0000)
+
+### New
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Support of OnChange! Event
+
 ## Release honister_v3.4.1 - 2024-02-15(11:43:45 +0000)
 
 ### Fixes
