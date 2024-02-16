@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.5.1 - 2024-02-16(14:16:24 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Extend unit tests
+
 ## Release honister_v3.5.0 - 2024-02-15(12:56:00 +0000)
 
 ### New
