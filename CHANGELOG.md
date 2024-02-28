@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.5.3 - 2024-02-28(12:48:56 +0000)
+
+### Other
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): Rename BBF license to OBUSPA license
+
 ## Release honister_v3.5.2 - 2024-02-28(09:07:49 +0000)
 
 ### Other
