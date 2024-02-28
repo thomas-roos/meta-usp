@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.5.2 - 2024-02-28(09:07:49 +0000)
+
+### Other
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): [USP] Fix licensing issues for opensourcing USP libs
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): Move component to prpl-foundation gitlab
+
 ## Release honister_v3.5.1 - 2024-02-16(14:16:24 +0000)
 
 ### Other
