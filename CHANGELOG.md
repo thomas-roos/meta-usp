@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.5.4 - 2024-03-14(11:23:42 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [CDROUTER][USP] Delete Message - Allow Partial True fails
+
 ## Release honister_v3.5.3 - 2024-02-28(12:48:56 +0000)
 
 ### Other
