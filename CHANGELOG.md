@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.5.5 - 2024-03-18(12:12:12 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] PeriodicNotifInterval changes are only applied after reboot
+
 ## Release honister_v3.5.4 - 2024-03-14(11:23:42 +0000)
 
 ### Fixes
