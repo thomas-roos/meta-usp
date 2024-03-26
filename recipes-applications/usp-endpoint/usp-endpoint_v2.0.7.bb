@@ -75,6 +75,7 @@ EXTRA_OEMAKE += "DEST=${D} \
                  LIBDIR=${libdir} \
                  BINDIR=${bindir} \
                  INCLUDEDIR=${includedir} \
+                 CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPE=${CONFIG_SAH_SERVICES_USP-ENDPOINT_INSTALL_USPE} \
                  "
 
 FILES:${PN} += "/etc/amx/uspc/uspc.odl"
