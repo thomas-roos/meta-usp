@@ -9,8 +9,8 @@ inherit pkgconfig config-usp
 
 SUMMARY = "converts protobuf messages to amx variants"
 LICENSE += "SAH & BSD-2-Clause-Patent & OBUSPA"
-LIC_FILES_CHKSUM += "file://LICENSE.BSD;md5=cd9db409406fd4c7234d852479547016"
-LIC_FILES_CHKSUM += "file://LICENSE.OBUSPA;md5=f16dcbad8d963a623b8baf43f2c0f003"
+LIC_FILES_CHKSUM += "file://LICENSE.BSD2;md5=cd9db409406fd4c7234d852479547016"
+LIC_FILES_CHKSUM += "file://LICENSE.BSD3;md5=f16dcbad8d963a623b8baf43f2c0f003"
 
 COMPONENT = "libusp"
 

@@ -10,7 +10,7 @@ inherit pkgconfig config-usp
 SUMMARY = "libusp can be used for converting USP protobuf messages to ambiorix variants and vice versa."
 LICENSE += "SAH & BBF & BSD-2-Clause-Patent"
 LIC_FILES_CHKSUM += "file://LICENSE.BBF;md5=f327b882d63b048b71ed6d120cd0c19a"
-LIC_FILES_CHKSUM += "file://LICENSE.BSD;md5=6985054d3f2d7dbde00e278406c8cda2"
+LIC_FILES_CHKSUM += "file://LICENSE.BSD2;md5=6985054d3f2d7dbde00e278406c8cda2"
 
 COMPONENT = "libusp"
 
