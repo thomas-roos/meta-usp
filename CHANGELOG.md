@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.6.2 - 2024-03-27(16:56:18 +0000)
+
+### Other
+
+- [usp-endpoint](https://gitlab.com/soft.at.home/usp/applications/usp-endpoint): [USP] Extend documentation
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Extend documentation
+
 ## Release honister_v3.6.1 - 2024-03-27(11:53:25 +0000)
 
 ## Release honister_v3.6.0 - 2024-03-27(09:08:32 +0000)
