@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.6.3 - 2024-04-03(09:58:13 +0000)
+
+### Fixes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [USP] Set or Delete response does not return error codes
+
 ## Release honister_v3.6.2 - 2024-03-27(16:56:18 +0000)
 
 ### Other
