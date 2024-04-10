@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.6.4 - 2024-04-10(07:38:44 +0000)
+
+### Changes
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): Make amxb timeouts configurable
+
 ## Release honister_v3.6.3 - 2024-04-03(09:58:13 +0000)
 
 ### Fixes
