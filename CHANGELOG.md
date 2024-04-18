@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.7.0 - 2024-04-18(13:00:15 +0000)
+
+### Changes
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Allow multiple registrations for the same bus context
+
 ## Release honister_v3.6.4 - 2024-04-10(07:38:44 +0000)
 
 ### Changes
