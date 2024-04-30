@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.7.1 - 2024-04-30(14:07:12 +0000)
+
+### Other
+
+- [libuspi](https://gitlab.com/prpl-foundation/components/core/libraries/libuspi): Move component to prpl-foundation gitlab
+- [libuspprotobuf](https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf): Move component to prpl-foundation gitlab
+
 ## Release honister_v3.7.0 - 2024-04-18(13:00:15 +0000)
 
 ### Changes
