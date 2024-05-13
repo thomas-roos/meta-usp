@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.8.1 - 2024-05-13(14:29:03 +0000)
+
+### Fixes
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): AMX USP backend must remove braces from operate name when received
+
 ## Release honister_v3.8.0 - 2024-05-08(15:00:32 +0000)
 
 ### New
