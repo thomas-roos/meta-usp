@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.8.2 - 2024-05-21(20:57:19 +0000)
+
+### Other
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): [Security][ambiorix]Some libraries are not compiled with Fortify-Source
+
 ## Release honister_v3.8.1 - 2024-05-13(14:29:03 +0000)
 
 ### Fixes
