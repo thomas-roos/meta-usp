@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.8.3 - 2024-05-22(07:33:48 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [Security][ambiorix] Some libraries are not compiled with Fortify-Source
+
 ## Release honister_v3.8.2 - 2024-05-21(20:57:19 +0000)
 
 ### Other
