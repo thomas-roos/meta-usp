@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.9.1 - 2024-06-06(19:27:32 +0000)
+
+### Fixes
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Detection of bus context (USP) requires path to be dotted
+
 ## Release honister_v3.9.0 - 2024-06-06(18:59:31 +0000)
 
 ### New
