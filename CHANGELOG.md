@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.9.0 - 2024-06-06(18:59:31 +0000)
+
+### New
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): Add generic function to try to convert USP error to amxd status
+
 ## Release honister_v3.8.5 - 2024-06-03(18:36:33 +0000)
 
 ## Release honister_v3.8.4 - 2024-06-03(06:25:19 +0000)
