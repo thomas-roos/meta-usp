@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.10.0 - 2024-06-10(08:38:24 +0000)
+
+### New
+
+- [mod-amxb-usp](https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp): Allow data model translations in USP backend
+
 ## Release honister_v3.9.1 - 2024-06-06(19:27:32 +0000)
 
 ### Fixes
