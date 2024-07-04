@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.11.1 - 2024-07-04(06:55:14 +0000)
+
+### Other
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): [TR181-Device]Bidirectional communication support between UBUS and IMTP
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): Key parameters without read-only in definition are write-once and must be reported as read-write in gsdm
+
 ## Release honister_v3.11.0 - 2024-06-18(08:44:18 +0000)
 
 ### New
