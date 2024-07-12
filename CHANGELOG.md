@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.12.0 - 2024-07-12(09:12:46 +0000)
+
+### New
+
+- [libuspi](https://gitlab.com/prpl-foundation/components/core/libraries/libuspi): [TR181-Device]Bidirectional communication support between UBUS and IMTP
+
 ## Release honister_v3.11.1 - 2024-07-04(06:55:14 +0000)
 
 ### Other
