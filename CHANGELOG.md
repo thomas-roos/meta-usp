@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v3.12.1 - 2024-07-17(07:08:23 +0000)
+
+### New
+
+- [libusp](https://gitlab.com/prpl-foundation/components/core/libraries/libusp): [USP] libusp library improvements
+
 ## Release honister_v3.12.0 - 2024-07-12(09:12:46 +0000)
 
 ### New
