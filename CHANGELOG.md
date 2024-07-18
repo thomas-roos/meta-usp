@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v4.0.1 - 2024-07-18(11:07:21 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [TR181-Device]Bidirectional communication support between UBUS and IMTP
+
 ## Release honister_v4.0.0 - 2024-07-17(15:40:28 +0000)
 
 ### Other
