@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release honister_v4.0.2 - 2024-07-22(14:56:22 +0000)
+
+### Other
+
+- [uspagent](https://gitlab.com/soft.at.home/usp/applications/uspagent): [AMXB] Introduce depth parameter for subscriptions
+
 ## Release honister_v4.0.1 - 2024-07-18(11:07:21 +0000)
 
 ### Other
