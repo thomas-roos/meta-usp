@@ -27,7 +27,6 @@ RDEPENDS:${PN} += "libamxb"
 RDEPENDS:${PN} += "amx-cli"
 RDEPENDS:${PN} += "mod-ba-cli"
 RDEPENDS:${PN} += "mod-dm-cli"
-RDEPENDS:${PN} += "usp-endpoint"
 
 do_install() {
         install -d ${D}/etc/amx/cli/

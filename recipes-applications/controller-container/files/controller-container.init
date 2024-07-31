@@ -6,12 +6,15 @@
 # Loading USP back-end
 backend add /usr/bin/mods/amxb/mod-amxb-usp.so
 
+# Configure the USP endpoint as set as env var
+!amx variable usp.EndpointID = $(USP_ENDPOINT_ID)
+
 # Open connection to USP endpoint
-connection open usp:/var/run/usp/endpoint_agent_path
+connection open usp:/var/run/usp/broker_agent_path
 
 # Select connection
 connections
-select usp:/var/run/usp/endpoint_agent_path
+select usp:/var/run/usp/broker_agent_path
 
 # Set mode cli
 !addon select mod_ba cli
